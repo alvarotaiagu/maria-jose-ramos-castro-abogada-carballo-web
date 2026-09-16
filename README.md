@@ -24,10 +24,27 @@ portada) y `data-marca="resaltado"` (trazo ancho translúcido por detrás, en
 el resto del documento). El overlay vive **dentro del propio párrafo**, así
 que sus coordenadas son las del bloque de texto y nunca se cruza con una foto.
 
-Es la primera plantilla del sector legal de la carpeta y no reutiliza el
-esqueleto de ninguna otra: aquí el lenguaje es el documento —texto, subrayado,
-marco—, no agua, pinceladas, ondas, láminas anatómicas, papel recortado,
-plomada ni columnas contables.
+No reutiliza el esqueleto de ninguna otra plantilla de la carpeta: aquí el
+lenguaje es el documento —texto, subrayado, marco—, no agua, pinceladas,
+ondas, láminas anatómicas, papel recortado, plomada ni columnas contables.
+
+### Frente a las otras plantillas legales
+
+El mismo día salieron otras dos del sector, y las tres son deliberadamente
+distintas:
+
+| Plantilla | Concepto | Paleta y tipografía |
+|---|---|---|
+| **Esta** | «Cláusula»: el documento que se subraya | rosa empolvado + terracota + madera · Lora |
+| `jose-manuel-blanco-regueiro-abogado-carballo-web` | «Titulares»: el caso como noticia | blanco y negro puros + un rojo de prensa · Anton |
+| `castro-castro-abogados-carballo-web` | «Escritura»: papel timbrado y cuño | papel hueso + granate + oro · Playfair Display |
+
+**Una coincidencia que conviene saber:** las tres usan un indicador de avance
+propio, y el de «Titulares» también se llama *folio*. Allí es un número de
+página flotante; aquí es una franja en la cabecera con el nombre de la cláusula,
+el contador `NN / 06` y una barra de progreso. Son distintos en forma y en
+sitio, pero si alguna vez se venden dos de estas tres al mismo cliente o a
+competidores directos, este es el punto donde se parecen.
 
 ## Estructura
 
