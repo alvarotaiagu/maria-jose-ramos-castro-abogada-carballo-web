@@ -1,0 +1,658 @@
+{
+ "base": "http://127.0.0.1:8983/",
+ "fecha": "2026-09-16T15:36:04.160Z",
+ "total": 130,
+ "fallos": 0,
+ "resultados": [
+  {
+   "prueba": "la cláusula se escribe letra a letra",
+   "ok": true,
+   "detalle": "60/236 letras visibles a los 650 ms"
+  },
+  {
+   "prueba": "al terminar la intro se lee la cláusula entera",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "hay un trazo de rotulador por cada palabra clave del hero",
+   "ok": true,
+   "detalle": 3
+  },
+  {
+   "prueba": "los subrayados del hero están dibujados al final",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "los subrayados son terracota, no negros",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el subrayado es fino (no tapa el texto)",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el rotulador queda detrás del texto",
+   "ok": true,
+   "detalle": "{\"svgZ\":\"0\",\"emZ\":\"1\"}"
+  },
+  {
+   "prueba": "la llamada a la acción del hero entra en pantalla a 1440×900",
+   "ok": true,
+   "detalle": "{\"bottom\":713,\"vh\":900}"
+  },
+  {
+   "prueba": "en la portada el folio marca 00",
+   "ok": true,
+   "detalle": "00"
+  },
+  {
+   "prueba": "sin errores de consola en la portada",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "el folio sigue la cláusula I",
+   "ok": true,
+   "detalle": "{\"num\":\"01\",\"tit\":\"Quién le atiende\",\"barra\":14.02}"
+  },
+  {
+   "prueba": "la barra de progreso del folio avanza",
+   "ok": true,
+   "detalle": 14.02
+  },
+  {
+   "prueba": "el resaltado de la bio está pintado",
+   "ok": true,
+   "detalle": "{\"off\":0,\"grosor\":20.7,\"alto\":28,\"opac\":0.34}"
+  },
+  {
+   "prueba": "el resaltado es un trazo ancho tipo marcador",
+   "ok": true,
+   "detalle": "{\"off\":0,\"grosor\":20.7,\"alto\":28,\"opac\":0.34}"
+  },
+  {
+   "prueba": "el resaltado es translúcido, deja leer el texto",
+   "ok": true,
+   "detalle": 0.34
+  },
+  {
+   "prueba": "la pared tiene 10 marcos",
+   "ok": true,
+   "detalle": 10
+  },
+  {
+   "prueba": "los marcos a la vista se han enderezado",
+   "ok": true,
+   "detalle": "{\"total\":10,\"vistos\":10,\"torcidos\":0,\"opacos\":10,\"sombra\":true}"
+  },
+  {
+   "prueba": "los marcos a la vista están opacos",
+   "ok": true,
+   "detalle": "{\"total\":10,\"vistos\":10,\"torcidos\":0,\"opacos\":10,\"sombra\":true}"
+  },
+  {
+   "prueba": "los marcos llevan sombra CSS estática",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "cada marco lleva su [TÍTULO PENDIENTE]",
+   "ok": true,
+   "detalle": 10
+  },
+  {
+   "prueba": "el stack tiene 6 áreas",
+   "ok": true,
+   "detalle": 6
+  },
+  {
+   "prueba": "el sticky va en el <li>, no en la tarjeta",
+   "ok": true,
+   "detalle": "{\"n\":6,\"sticky\":true,\"cardSticky\":false,\"minH\":false,\"recorrido\":true}"
+  },
+  {
+   "prueba": "sin min-height en el <li> (nada de tarjetas fantasma)",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el recorrido del stack lo da el margin-bottom",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "la tarjeta activa del stack se ve entera",
+   "ok": true,
+   "detalle": "{\"op\":1,\"esc\":0.985}"
+  },
+  {
+   "prueba": "las tarjetas tapadas se encogen (sólo escala, nunca opacidad)",
+   "ok": true,
+   "detalle": "{\"esc\":0.955}"
+  },
+  {
+   "prueba": "ninguna tarjeta del stack queda invisible",
+   "ok": true,
+   "detalle": "fantasmas: "
+  },
+  {
+   "prueba": "el procedimiento tiene 4 pasos",
+   "ok": true,
+   "detalle": 4
+  },
+  {
+   "prueba": "la línea del procedimiento se dibuja con el scroll",
+   "ok": true,
+   "detalle": "33.79%"
+  },
+  {
+   "prueba": "los pasos se van sellando",
+   "ok": true,
+   "detalle": 2
+  },
+  {
+   "prueba": "la nota real 3,7 sobre 5 aparece",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el número real de reseñas (3) aparece",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "la nota no se infla visualmente (va en cuerpo de texto)",
+   "ok": true,
+   "detalle": "18px vs titular 54.4px"
+  },
+  {
+   "prueba": "las 3 reseñas son placeholders, no textos inventados",
+   "ok": true,
+   "detalle": 3
+  },
+  {
+   "prueba": "la dirección lleva el 1º E",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "la calle y el código postal son los reales",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el teléfono real es un enlace tel:",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el horario real (L-V 9:30–20:00, fin de semana cerrado)",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el mapa NO se carga solo",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el mapa aparece al pulsar",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el mapa usa el embed sin API key",
+   "ok": true,
+   "detalle": "https://www.google.com/maps?q=Mar%C3%ADa%20Jos%C3%A9%20Ramos%20Castro%20Abogada%2C%20R%C3%BAa%20Fomento%2C%2051%2C%2015102%20Carballo%2C%20A%20Coru%C3%B1a&output=embed"
+  },
+  {
+   "prueba": "sobre el pie oscuro el botón de llamar se aclara",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "al final el folio marca la última cláusula",
+   "ok": true,
+   "detalle": "06"
+  },
+  {
+   "prueba": "la barra del folio llega al 100 %",
+   "ok": true,
+   "detalle": 100
+  },
+  {
+   "prueba": "el pie declara el logo como provisional",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "sin errores de consola en el recorrido",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "marca el hueco [AÑOS DE EJERCICIO PENDIENTE]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [Nº COLEGIADA PENDIENTE]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [FORMACIÓN PENDIENTE]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [ESPECIALIDAD PENDIENTE]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [IDIOMAS PENDIENTE]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [EMAIL PENDIENTE]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [TÍTULO PENDIENTE]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [TEXTO DE RESEÑA PENDIENTE]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [CONFIRMAR CON LA PROFESIONAL]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [RETRATO PENDIENTE]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [LOGO PROVISIONAL]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "marca el hueco [AÑO PENDIENTE]",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "no hay precios inventados",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "no hay premios inventados",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "no hay años de ejercicio inventados",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "no hay lenguaje de bufete colectivo",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "no hay número de colegiada inventado",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "no hay valoración inflada",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "la valoración que se publica es la real (3,7)",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el schema declara ratingValue 3.7 y ratingCount 3",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el schema usa la dirección real con 1º E",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "ninguna imagen es de balanza, mazo, toga o biblioteca jurídica",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "todas las imágenes llevan alt",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "las fotos se declaran como imagen de ambiente",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "la paleta es la real del despacho",
+   "ok": true,
+   "detalle": "--blanco=#FAF8F6 --rosa=#E8D5CC --marca=#CB7F5E --terracota=#A85E3F --carbon=#2B2A28 --madera=#B08D6A"
+  },
+  {
+   "prueba": "el cuerpo va en serif (Lora)",
+   "ok": true,
+   "detalle": "Lora, \"Iowan Old Style\", Georgia, \"Times New Roman\", serif"
+  },
+  {
+   "prueba": "la navegación va en sans (Inter)",
+   "ok": true,
+   "detalle": "Inter, \"Public Sans\", system-ui, -apple-system, sans-serif"
+  },
+  {
+   "prueba": "las cláusulas destacadas van en itálica",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el aviso de cookies aparece",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el botón del aviso lo cierra de verdad (display:none gana a display:flex)",
+   "ok": true,
+   "detalle": "{\"hidden\":true,\"display\":\"none\",\"guardado\":\"1\"}"
+  },
+  {
+   "prueba": "el aviso se recuerda en localStorage",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "al recargar, el aviso ya no vuelve",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el diálogo dlg-legal abre y cierra",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el diálogo dlg-privacidad abre y cierra",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el diálogo dlg-cookies abre y cierra",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "sin tareas largas (>50 ms) mientras se escribe y se subraya la portada",
+   "ok": true,
+   "detalle": "[]"
+  },
+  {
+   "prueba": "sin tareas largas (>50 ms) durante el scroll",
+   "ok": true,
+   "detalle": "[]"
+  },
+  {
+   "prueba": "no hay ningún canvas en la página",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "sin filtros CSS sobre elementos en movimiento",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el bloqueo al cargar no lo pone nuestro JS, sino GSAP y la webfont",
+   "ok": true,
+   "detalle": "con main.js 173/184/347/269 ms · vacío 130/256/128/228 ms"
+  },
+  {
+   "prueba": "con reduced-motion la cláusula ya está escrita",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "con reduced-motion los subrayados ya están puestos",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "con reduced-motion no se activa Lenis",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "con reduced-motion los botones del hero se ven",
+   "ok": true,
+   "detalle": 1
+  },
+  {
+   "prueba": "con reduced-motion los diplomas ya están rectos y visibles",
+   "ok": true,
+   "detalle": "{\"rectos\":true,\"opacos\":true}"
+  },
+  {
+   "prueba": "con reduced-motion el procedimiento está entero",
+   "ok": true,
+   "detalle": "{\"linea\":\"100%\",\"activos\":4}"
+  },
+  {
+   "prueba": "sin errores de consola con reduced-motion",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "sin JS el texto de la cláusula se lee",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "sin JS no aparece el aviso de cookies",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "sin JS no hay iframe de Google",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "sin JS los resaltados los pinta el CSS de respaldo",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "con GSAP bloqueado la página se ve igual de legible",
+   "ok": true,
+   "detalle": "{\"clase\":\"js no-gsap\",\"hero\":1,\"texto\":285}"
+  },
+  {
+   "prueba": "sin scroll horizontal a 1440 px",
+   "ok": true,
+   "detalle": "{\"doc\":1440,\"win\":1440,\"culpables\":[\"marquee-pista serif\",\"SPAN\",\"I\",\"SPAN\"]}"
+  },
+  {
+   "prueba": "el subrayado cae sobre su palabra a 1440 px",
+   "ok": true,
+   "detalle": "{\"dx\":2,\"dy\":34}"
+  },
+  {
+   "prueba": "sin errores de consola a 1440 px",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "sin scroll horizontal a 1280 px",
+   "ok": true,
+   "detalle": "{\"doc\":1280,\"win\":1280,\"culpables\":[\"marquee-pista serif\",\"SPAN\",\"I\",\"SPAN\"]}"
+  },
+  {
+   "prueba": "el subrayado cae sobre su palabra a 1280 px",
+   "ok": true,
+   "detalle": "{\"dx\":2,\"dy\":30}"
+  },
+  {
+   "prueba": "sin errores de consola a 1280 px",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "sin scroll horizontal a 1024 px",
+   "ok": true,
+   "detalle": "{\"doc\":1024,\"win\":1024,\"culpables\":[\"marquee-pista serif\",\"I\",\"SPAN\",\"I\"]}"
+  },
+  {
+   "prueba": "el subrayado cae sobre su palabra a 1024 px",
+   "ok": true,
+   "detalle": "{\"dx\":2,\"dy\":25}"
+  },
+  {
+   "prueba": "sin errores de consola a 1024 px",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "sin scroll horizontal a 768 px",
+   "ok": true,
+   "detalle": "{\"doc\":768,\"win\":768,\"culpables\":[\"marquee-pista serif\",\"SPAN\",\"I\",\"SPAN\"]}"
+  },
+  {
+   "prueba": "el subrayado cae sobre su palabra a 768 px",
+   "ok": true,
+   "detalle": "{\"dx\":2,\"dy\":22}"
+  },
+  {
+   "prueba": "sin errores de consola a 768 px",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "sin scroll horizontal a 540 px",
+   "ok": true,
+   "detalle": "{\"doc\":540,\"win\":540,\"culpables\":[\"marquee-pista serif\",\"SPAN\",\"I\",\"SPAN\"]}"
+  },
+  {
+   "prueba": "el subrayado cae sobre su palabra a 540 px",
+   "ok": true,
+   "detalle": "{\"dx\":2,\"dy\":22}"
+  },
+  {
+   "prueba": "sin errores de consola a 540 px",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "sin scroll horizontal a 400 px",
+   "ok": true,
+   "detalle": "{\"doc\":400,\"win\":400,\"culpables\":[\"marquee-pista serif\",\"SPAN\",\"I\",\"SPAN\"]}"
+  },
+  {
+   "prueba": "el subrayado cae sobre su palabra a 400 px",
+   "ok": true,
+   "detalle": "{\"dx\":2,\"dy\":21}"
+  },
+  {
+   "prueba": "sin errores de consola a 400 px",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "sin scroll horizontal a 360 px",
+   "ok": true,
+   "detalle": "{\"doc\":360,\"win\":360,\"culpables\":[\"marquee-pista serif\",\"SPAN\",\"I\",\"SPAN\"]}"
+  },
+  {
+   "prueba": "el subrayado cae sobre su palabra a 360 px",
+   "ok": true,
+   "detalle": "{\"dx\":2,\"dy\":21}"
+  },
+  {
+   "prueba": "sin errores de consola a 360 px",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "a 400 px la navegación de escritorio está oculta",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el menú móvil abre",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el menú se cierra al elegir y lleva a la sección",
+   "ok": true,
+   "detalle": "{\"cerrado\":true,\"y\":12548,\"destino\":90}"
+  },
+  {
+   "prueba": "el documento declara lang=\"es\"",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "hay un único h1 y dice quién es y dónde",
+   "ok": true,
+   "detalle": "María José Ramos Castro, abogada Carballo, A Coruña"
+  },
+  {
+   "prueba": "los titulares troceados conservan su texto para lectores de pantalla",
+   "ok": true,
+   "detalle": "{\"lang\":\"es\",\"h1\":1,\"h1Texto\":\"María José Ramos Castro, abogada Carballo, A Coruña\",\"srOcultos\":true,\"srTexto\":true,\"chAria\":true,\"svgAria\":true,\"skip\":true,\"botonMenu\":\"false\"}"
+  },
+  {
+   "prueba": "las letras sueltas están ocultas a la accesibilidad",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "los SVG del rotulador son decorativos",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "hay enlace de salto al contenido",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el botón de menú declara aria-expanded",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el primer tabulador va al enlace de salto",
+   "ok": true,
+   "detalle": "skip"
+  }
+ ]
+}
