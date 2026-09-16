@@ -1,5 +1,7 @@
 # María José Ramos Castro, Abogada · Carballo (A Coruña)
 
+**Publicada en <https://alvarotaiagu.github.io/maria-jose-ramos-castro-abogada-carballo-web/>**
+
 Web de marca personal para una abogada que ejerce sola en Carballo. Negocio
 real, sin sitio previo. Sitio estático: `index.html`, `css/style.css`,
 `js/main.js` y los recursos de `assets/`. Sin build, sin dependencias en el
@@ -173,6 +175,9 @@ y se ve mientras la foto baja.
 ```
 python -m http.server 8983
 NODE_PATH=<ruta a un node_modules con playwright> node scripts/verify.js
+
+# o contra el sitio publicado
+MJRC_URL=https://alvarotaiagu.github.io/maria-jose-ramos-castro-abogada-carballo-web/   NODE_PATH=<...> node scripts/verify.js
 ```
 
 `scripts/verify.js` — **130 pruebas**, informe en `scripts/verify-report.json`,
@@ -196,6 +201,8 @@ marcados y que **no** haya precios, premios, años de ejercicio, número de
 colegiada, lenguaje de bufete colectivo ni valoración inflada, que ninguna
 imagen sea de balanza, mazo, toga o biblioteca jurídica, y que la paleta y la
 tipografía sean las pedidas.
+
+Las 130 pruebas pasan tanto en local como contra el sitio publicado.
 
 Dos cosas las cazó esta verificación y no yo: **la página no tenía `<h1>`**
 (las secciones empezaban en `<h2>`) y **el primer tabulador caía en el aviso

@@ -1,13 +1,13 @@
 {
- "base": "http://127.0.0.1:8983/",
- "fecha": "2026-09-16T15:36:04.160Z",
+ "base": "https://alvarotaiagu.github.io/maria-jose-ramos-castro-abogada-carballo-web/",
+ "fecha": "2026-09-16T15:44:57.270Z",
  "total": 130,
  "fallos": 0,
  "resultados": [
   {
    "prueba": "la cláusula se escribe letra a letra",
    "ok": true,
-   "detalle": "60/236 letras visibles a los 650 ms"
+   "detalle": "63/236 letras visibles a los 650 ms"
   },
   {
    "prueba": "al terminar la intro se lee la cláusula entera",
@@ -432,7 +432,7 @@
   {
    "prueba": "el bloqueo al cargar no lo pone nuestro JS, sino GSAP y la webfont",
    "ok": true,
-   "detalle": "con main.js 173/184/347/269 ms · vacío 130/256/128/228 ms"
+   "detalle": "con main.js 176/208/184/170/170/192 ms · vacío 123/206/216/183/116/160 ms"
   },
   {
    "prueba": "con reduced-motion la cláusula ya está escrita",

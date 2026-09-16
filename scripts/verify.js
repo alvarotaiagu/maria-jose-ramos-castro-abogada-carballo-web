@@ -467,8 +467,10 @@ const irA = async (page, sel, margen = 120) => {
       await pg.close();
       return Math.round(t);
     };
+    /* contra el sitio publicado la red mete mucho más ruido: seis pasadas */
+    const vueltas = /^https?:\/\/(127\.0\.0\.1|localhost)/.test(BASE) ? 4 : 6;
     const conJs = [], sinJs = [];
-    for (let i = 0; i < 4; i++) { conJs.push(await suma(false)); sinJs.push(await suma(true)); }
+    for (let i = 0; i < vueltas; i++) { conJs.push(await suma(false)); sinJs.push(await suma(true)); }
     const min = a => Math.min.apply(null, a);
     ok('el bloqueo al cargar no lo pone nuestro JS, sino GSAP y la webfont',
       min(conJs) - min(sinJs) < 60,
